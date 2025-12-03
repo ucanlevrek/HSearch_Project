@@ -38,7 +38,6 @@ def inspect_example_node():
     print("\n=== Inspecting an example hou.Node ===")
     testquery = "agent"
     testcontext = "Object"
-    search()
 
 
 def main():
