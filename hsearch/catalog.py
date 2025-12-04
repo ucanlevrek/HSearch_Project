@@ -15,7 +15,7 @@ def build_node_catalog() -> List[NodeDefinition]:
 
     categories = hou.nodeTypeCategories()
 
-    wanted_contexts = ["Objects", "Sop"]
+    wanted_contexts = ["Object"]
 
     for cat_key in wanted_contexts:
         cat = categories.get(cat_key)
